@@ -6,15 +6,14 @@ from google import genai
 from pymongo import MongoClient
 
 # ----------------- CONFIGURATION -----------------
-IMAGES_ROOT = Path(r"C:\Users\wwwie\Documents\Big_Data\project1\CSC3331_Project1_Files")
+IMAGES_ROOT = Path(r"datasets/PNJ_Course_Images")
 
 MONGODB_URI = (
-    "mongodb+srv://ykikilolo726_db_user:local4444@cluster0.lpewrs5.mongodb.net/"
-    "?appName=Cluster0&tls=true&tlsInsecure=true"
+    "mongodb_srv_here"
 )
 MONGODB_DB = "CSC_CourseCatalog"
 
-GEMINI_API_KEY = "AIzaSyCJsHFqGKl8ID4MRvkukH_RfdtCmhoC8qc"
+GEMINI_API_KEY = "your_gemini_api_key_here"
 DEFAULT_MODEL = "gemini-2.5-flash"
 
 # ----------------- FOLDER MAPPING -----------------

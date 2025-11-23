@@ -5,8 +5,7 @@ from pymongo.errors import ConnectionFailure
 import sys
 
 MONGO_URI = (
-    "mongodb+srv://ykikilolo726_db_user:local4444@cluster0.lpewrs5.mongodb.net/"
-    "?appName=Cluster0&tls=true&tlsInsecure=true"
+    "mongodb_srv_here"
 )
 MONGODB_DB = "CSC_CourseCatalog"
 NEO4J_URI = "neo4j://127.0.0.1:7687"
